@@ -76,7 +76,7 @@ export default function ChatContainer({ messages, status, onSuggestionClick }) {
           ))}
 
           {/* Streaming / loading indicator */}
-          {status === 'streaming' &&
+          {(status === 'streaming' || status === 'submitted') &&
             messages.length > 0 &&
             messages[messages.length - 1].role !== 'assistant' && (
               <div className="chat-message chat-message--assistant">

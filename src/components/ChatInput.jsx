@@ -17,7 +17,7 @@ export default function ChatInput({ onSendMessage, status }) {
   const textareaRef = useRef(null);
   const fileInputRef = useRef(null);
 
-  const isStreaming = status === 'streaming';
+  const isStreaming = status === 'streaming' || status === 'submitted';
   const limitReached = isLimitReached();
   const remaining = getRemainingMessages();
   const warning = isWarning();
