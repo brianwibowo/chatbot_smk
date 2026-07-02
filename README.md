@@ -1,5 +1,5 @@
 # SmartIML AI ⚡
-> Chatbot Pintar Pembelajaran Virtual Materi **Instalasi Motor Listrik** untuk Siswa SMK Negeri Semarang, Jurusan Teknik Instalasi Tenaga Listrik (TITL) Kelas XI (Fase F).
+> Chatbot Pintar Pembelajaran Virtual Materi **Instalasi Motor Listrik** untuk Siswa SMKN 4 Semarang, Jurusan Teknik Instalasi Tenaga Listrik (TITL) Kelas XI (Fase F).
 
 SmartIML AI dirancang khusus untuk mempermudah siswa memahami materi kelistrikan motor, komponen mekanis pengendali, jenis diagram gambar listrik, dan 8 rangkaian kendali elektromagnetik (seperti Direct On Line, Star-Delta, dan Forward-Reverse) secara interaktif menggunakan kecerdasan buatan.
 

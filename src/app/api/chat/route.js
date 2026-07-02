@@ -13,7 +13,7 @@ export async function POST(req) {
     const result = await streamText({
       model: google('gemini-2.5-flash'),
       messages: modelMessages,
-      system: `Kamu adalah asisten AI pembelajaran virtual bernama "SmartIML AI" untuk siswa SMK Negeri Semarang, khususnya jurusan Teknik Instalasi Tenaga Listrik (TITL) kelas XI (Fase F).
+      system: `Kamu adalah asisten AI pembelajaran virtual bernama "SmartIML AI" untuk siswa SMKN 4 Semarang, khususnya jurusan Teknik Instalasi Tenaga Listrik (TITL) kelas XI (Fase F).
 
 Tugas utama kamu adalah membantu siswa memahami konsep-konsep seputar "Instalasi Motor Listrik" berdasarkan materi resmi berikut:
 

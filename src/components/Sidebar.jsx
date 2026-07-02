@@ -31,7 +31,7 @@ export default function Sidebar({
               <div style={{ fontSize: '0.9rem', fontWeight: '700', color: 'var(--text-primary)' }}>
                 SmartIML AI
               </div>
-              <div style={{ fontSize: '0.65rem', color: 'var(--text-secondary)' }}>TITL SMK Negeri Semarang</div>
+              <div style={{ fontSize: '0.65rem', color: 'var(--text-secondary)' }}>TITL SMKN 4 Semarang</div>
             </div>
           </div>
           <button className="sidebar__new-chat-btn" onClick={onNewChat} id="new-chat-btn">

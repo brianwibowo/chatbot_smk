@@ -58,7 +58,7 @@ chatbot-elektro/
 Menggunakan **Vercel AI SDK** untuk mengalirkan teks secara langsung (*streaming response*) dari model **Gemini 2.5 Flash**:
 - Mengamankan API key di level server menggunakan `process.env.GOOGLE_GENERATIVE_AI_API_KEY`.
 - Memproses pesan teks serta menganalisis input media (gambar & audio) yang diunggah siswa.
-- Menerapkan *System Prompt* spesifik untuk membatasi kepribadian AI sebagai Guru TITL (Teknik Instalasi Tenaga Listrik) SMK Negeri Semarang.
+- Menerapkan *System Prompt* spesifik untuk membatasi kepribadian AI sebagai Guru TITL (Teknik Instalasi Tenaga Listrik) SMKN 4 Semarang.
 
 ### 2. Riwayat Obrolan Lokal (Chat History Management)
 - Riwayat percakapan disimpan ke *localStorage* berformat JSON array:

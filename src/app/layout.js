@@ -10,7 +10,7 @@ const publicSans = Public_Sans({
 export const metadata = {
   title: "SmartIML AI — Chatbot Instalasi Motor Listrik SMK",
   description:
-    "Asisten AI untuk membantu siswa SMK Negeri Semarang memahami materi Instalasi Motor Listrik (TITL). Belajar rangkaian DOL, Star-Delta, dan kontrol motor listrik dengan mudah.",
+    "Asisten AI untuk membantu siswa SMKN 4 Semarang memahami materi Instalasi Motor Listrik (TITL). Belajar rangkaian DOL, Star-Delta, dan kontrol motor listrik dengan mudah.",
 };
 
 export default function RootLayout({ children }) {
