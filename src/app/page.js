@@ -305,7 +305,7 @@ export default function ChatPage() {
                 SmartIML AI
               </h1>
               <span className="header__subtitle">
-                AI Guru IML — SMKN 4 Semarang
+                AI Guru IML — XI TITL SMKN 4 Semarang
               </span>
             </div>
           </div>
