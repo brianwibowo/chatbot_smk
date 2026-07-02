@@ -302,10 +302,10 @@ export default function ChatPage() {
             <div className="header__title-group">
               <h1 className="header__title">
                 <Zap size={16} className="header__title-icon" />
-                Asisten Elektro
+                SmartIML AI
               </h1>
               <span className="header__subtitle">
-                AI Guru TITL — SMK Negeri Semarang
+                AI Guru IML — SMK Negeri Semarang
               </span>
             </div>
           </div>

@@ -26,10 +26,10 @@ export default function Sidebar({
         {/* Sidebar Header (Brand Logo & New Chat) */}
         <div className="sidebar__header" style={{ display: 'flex', flexDirection: 'column', gap: '14px' }}>
           <div style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
-            <img src="/logo.png" alt="Asisten Elektro Logo" style={{ width: '32px', height: '32px', borderRadius: '8px' }} />
+            <img src="/logo.png" alt="SmartIML AI Logo" style={{ width: '32px', height: '32px', borderRadius: '8px' }} />
             <div>
               <div style={{ fontSize: '0.9rem', fontWeight: '700', color: 'var(--text-primary)' }}>
-                Asisten Elektro
+                SmartIML AI
               </div>
               <div style={{ fontSize: '0.65rem', color: 'var(--text-secondary)' }}>TITL SMK Negeri Semarang</div>
             </div>

@@ -7,19 +7,19 @@ import { Zap, BookOpen, HelpCircle, Calculator } from 'lucide-react';
 const SUGGESTIONS = [
   {
     icon: Zap,
-    text: 'Jelaskan Hukum Ohm beserta contoh soalnya',
+    text: 'Bagaimana cara kerja rangkaian Direct On Line (DOL)?',
   },
   {
     icon: BookOpen,
-    text: 'Apa perbedaan kabel NYA, NYM, dan NYY?',
+    text: 'Jelaskan fungsi Thermal Overload Relay (TOR) pada motor',
   },
   {
     icon: HelpCircle,
-    text: 'Bagaimana cara kerja saklar tukar (hotel)?',
+    text: 'Kapan kita harus menggunakan rangkaian Bintang-Segitiga (Star-Delta)?',
   },
   {
     icon: Calculator,
-    text: 'Hitung biaya listrik rumah 900 VA per bulan',
+    text: 'Bagaimana cara membalik arah putaran motor listrik 3 fasa?',
   },
 ];
 
@@ -45,11 +45,11 @@ export default function ChatContainer({ messages, status, onSuggestionClick }) {
             <Zap size={36} color="white" />
           </div>
           <h1 className="welcome__title">
-            Halo! Saya <span>Asisten Elektro</span> ⚡
+            Halo! Saya <span>SmartIML AI</span> ⚡
           </h1>
           <p className="welcome__desc">
-            Saya siap membantu kamu memahami materi Instalasi Penerangan Listrik.
-            Tanyakan apa saja tentang kelistrikan, dari Hukum Ohm sampai K3!
+            Saya siap membantu kamu memahami materi Instalasi Motor Listrik (IML).
+            Tanyakan apa saja tentang kontrol motor, kontaktor, TOR, Star-Delta, dan K3!
           </p>
           <div className="welcome__suggestions">
             {SUGGESTIONS.map((item, index) => {

@@ -8,9 +8,9 @@ const publicSans = Public_Sans({
 });
 
 export const metadata = {
-  title: "Asisten Elektro — Chatbot Materi Kelistrikan SMK",
+  title: "SmartIML AI — Chatbot Instalasi Motor Listrik SMK",
   description:
-    "Asisten AI untuk membantu siswa SMK Negeri Semarang memahami materi Instalasi Penerangan Listrik (TITL). Belajar Hukum Ohm, rangkaian listrik, dan K3 kelistrikan dengan mudah.",
+    "Asisten AI untuk membantu siswa SMK Negeri Semarang memahami materi Instalasi Motor Listrik (TITL). Belajar rangkaian DOL, Star-Delta, dan kontrol motor listrik dengan mudah.",
 };
 
 export default function RootLayout({ children }) {
