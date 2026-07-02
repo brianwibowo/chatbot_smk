@@ -98,6 +98,19 @@ export default function Sidebar({
             {theme === 'light' ? <Moon size={16} /> : <Sun size={16} />}
           </button>
         </div>
+
+        {/* Credit */}
+        <div style={{ 
+          textAlign: 'center', 
+          padding: '6px 8px', 
+          fontSize: '0.625rem', 
+          color: 'var(--text-muted)', 
+          borderTop: '1px solid var(--sidebar-border)', 
+          opacity: 0.6,
+          letterSpacing: '0.025em'
+        }}>
+          Dev: M. Hendri Akbar Daffa - UNNES
+        </div>
       </aside>
     </>
   );
